@@ -1,0 +1,9 @@
+@use "../abstract/variables" as var;
+
+.main-btn{
+    padding: 16px 48px !important;
+    color: var.$yellow !important;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    margin-left: 32px;
+}
