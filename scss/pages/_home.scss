@@ -94,7 +94,6 @@
     }
   }
 }
-
 .projects {
   padding: 50px 0;
   background-color: var.$royal-blue;
@@ -212,25 +211,104 @@
     letter-spacing: -0.03em;
     color: #ffffff;
     margin-bottom: 40px;
+    max-width: 532px;
   }
   a {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 106.5%;
-    /* identical to box height, or 17px */
     text-transform: capitalize;
-    color: #f58a07;
     background: #ffffff;
     border-radius: 31px;
     padding: 19px 32px;
+    button {
+      color: #f58a07;
+    }
   }
-  .left{
-    padding-right: 0;
+  &-row{
+    width: 100%;
+    display: grid;
+    grid-template-columns:1fr;
   }
   .right {
     padding: 128px 30px;
     background-color: #f58a07;
+    a{
+      width: 216px;
+    }
+  }
+}
+.video {
+  padding: 50px 0;
+  &__title {
+    max-width: 550px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #0d1317;
+    margin-bottom: 24px;
+  }
+  &__text {
+    max-width: 550px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5b5b5b;
+    margin-bottom: 40px;
+  }
+  &__bottom {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+  }
+}
+.news {
+  padding: 50px 0;
+  background-color: var.$royal-blue;
+  &__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #0d1317;
+  }
+  .row {
+    margin-top: 64px !important;
+  }
+  .card {
+    width: 99% !important;
+    border-radius: 20px !important;
+    &-body {
+      padding: 32px !important;
+    }
+    &-title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: -0.03em;
+      color: #0d1317;
+      margin-bottom: 1rem;
+    }
+    &-text {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 28px;
+      color: #5b5b5b;
+      margin-bottom: 1.5rem;
+    }
+    &-img-top{
+      border-top-left-radius: 20px !important;
+      border-top-right-radius: 20px !important;
+    }
   }
 }
 
@@ -242,17 +320,15 @@
   }
 }
 @media (min-width: 992px) {
-  .work,
-  .projects,
-  .experience {
+  main section {
     padding: 96px 0 !important;
   }
-
-  .inquiry {
-    &__left,
-    &__right {
-      padding: 96px;
-      padding-bottom: 48px;
+  .vacancy{
+    &-row{
+      grid-template-columns: 1fr 1fr;
+    }
+    .right{
+      padding-left: 128px;
     }
   }
 }

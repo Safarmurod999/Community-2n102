@@ -26,7 +26,7 @@
       <button id="backtop">
         <a href="#"><img src="images/home/backtop.svg" alt="backtop" /></a>
       </button>
-      <section class="home">
+      <section class="home py-0">
         <div class="container">
           <div class="row">
             <div class="home__left col-12 col-lg-5 text-center text-lg-start">
@@ -121,13 +121,13 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-lg-6">
-              <h1 class="projects__title text-lg-start">
+              <h1 class="projects__title text-center text-lg-start">
                 We are building software solution that solves your business
                 challenges
               </h1>
             </div>
             <div class="col-12 col-lg-6">
-              <p class="projects__text text-lg-start">
+              <p class="projects__text text-center text-lg-start">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur sit amet eros blandit, hendrerit elit et, mattis
                 purus. Vivamus commodo suscipit tellus et pellentesque.
@@ -135,7 +135,7 @@
             </div>
           </div>
           <div class="row projects__bottom">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 mt-3 mt-md-0">
               <div class="projects__card">
                 <img src="images/home/icon-1.png" alt="..." />
                 <h4>Invoicing</h4>
@@ -145,7 +145,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 mt-3 mt-md-0">
               <div class="projects__card">
                 <img src="images/home/icon-1.png" alt="..." />
                 <h4>Support</h4>
@@ -155,7 +155,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 mt-3 mt-md-0">
               <div class="projects__card">
                 <img src="images/home/icon-1.png" alt="..." />
                 <h4>Surveying</h4>
@@ -175,7 +175,9 @@
               <h1 class="experience__title text-center text-lg-start">
                 The energy of a start-up combined with 30 years of experience.
               </h1>
-              <p class="experience__text text-center text-lg-start mx-auto mx-lg-0">
+              <p
+                class="experience__text text-center text-lg-start mx-auto mx-lg-0"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur sit amet eros blandit, hendrerit elit et, mattis
                 purus. Vivamus commodo suscipit tellus et pellentesque.
@@ -199,27 +201,94 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-6 experience__right position-relative mt-5 mt-lg-0">
-              <img class="img-fluid w-100" src="images/home/experience-right.png" alt="" />
+            <div
+              class="col-12 col-lg-6 experience__right position-relative mt-5 mt-lg-0"
+            >
+              <img
+                class="img-fluid w-100"
+                src="images/home/experience-right.png"
+                alt=""
+              />
             </div>
           </div>
-          <img class="img-fluid" src="images/home/experience-last.png" alt="...">
+          <img
+            class="img-fluid"
+            src="images/home/experience-last.png"
+            alt="..."
+          />
         </div>
       </section>
-      <section class="vacancy">
-        <div class="row">
-          <div class="col-12 col-md-6 left"><img src="images/home/vacancy.png" alt="..."></div>
-        <div class="col-12 col-md-6 right">
-          <h1>Energy of a start-up combined with 30 years of experience.</h1>
-          <a href="#">See Job Vacancies</a>
-        </div>        </div>
+      <section class="vacancy py-0">
+        <div class="vacancy-row">
+          <div class="left p-0">
+            <img src="images/home/vacancy.png" alt="..." />
+          </div>
+          <div class="right d-flex flex-column">
+            <h1 class=" text-center text-lg-start mx-auto mx-lg-0">Energy of a start-up combined with 30 years of experience.</h1>
+            <a class=" text-center text-lg-start mx-auto mx-lg-0" href="#"><button>See Job Vacancies</button></a>
+          </div>
+        </div>
       </section>
       <section class="video">
-        
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 d-flex flex-column align-items-center align-items-lg-start justify-content-center">
+              <h1 class="video__title text-center text-lg-start mx-auto mx-lg-0">Finsweet was a dream to work with</h1>
+              <p class="video__text text-center text-lg-start mx-auto mx-lg-0">
+                Maecenas efficitur scelerisque lorem, et varius lacus tincidunt
+                vel. Pellentesque a arcu vitae diam dapibus mattis vel vel orci.
+                Vivamus eleifend nec felis vel auctor.
+              </p>
+              <img class="text-center text-lg-start" src="images/home/person.png" alt="...">
+            </div>
+            <div class="col-12 col-lg-6 position-relative mt-5 mt-lg-0">
+              <img class="w-100" src="images/home/video.png" alt="...">
+              <img class="video__bottom" src="images/home/play-icon.png" alt="...">
+            </div>
+          </div>
+        </div>
       </section>
-      <footer w3-include-html="footer.html"></footer>
+      <section class="news">
+        <div class="container">
+          <h1 class="news__title text-center text-lg-start">
+            Latest Blog & News
+          </h1>
+          <div class="row">
+            <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+              <div class="card" style="width: 18rem;">
+                <img src="images/home/blog1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Why you have to digitalize in 2021</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et.</p>
+                  <a href="#" class="card-link"><img src="images/home/learn-m.png" alt="..."></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+              <div class="card" style="width: 18rem;">
+                <img src="images/home/blog2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Our internal process and longerm vision</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et.</p>
+                  <a href="#" class="card-link"><img src="images/home/learn-m.png" alt="..."></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+              <div class="card" style="width: 18rem;">
+                <img src="images/home/blog3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Helping the next generation of leaders</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et.</p>
+                  <a href="#" class="card-link"><img src="images/home/learn-m.png" alt="..."></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" w3-include-html="footer.html"></footer>
     </main>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
