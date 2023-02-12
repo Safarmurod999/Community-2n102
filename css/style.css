@@ -377,6 +377,46 @@ main {
   line-height: 28px;
   color: #5b5b5b;
 }
+.experience__bottom-tab {
+  padding: 48px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #DCEAF5;
+}
+.experience__bottom-tab .ribbon {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+.experience__bottom-tab .ap-tab-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding-left: 0;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+.experience__bottom-tab .ap-tab-link {
+  padding: 8px 24px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  border: 1px solid #a8bccc;
+  border-radius: 31px;
+  color: rgba(6, 50, 85, 0.3);
+}
+.experience__bottom-tab a.active-tab {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #f58a07;
+  background-color: #fff;
+  border-color: #fff;
+}
 
 .vacancy img {
   width: 100%;
