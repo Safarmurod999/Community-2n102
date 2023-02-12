@@ -26,7 +26,9 @@
   font-size: 16px !important;
   line-height: 28px !important;
 }
-
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  border-bottom: 3px solid #F58A07 !important;
+}
 .navbar-nav .nav-link.active {
   color: #394149 !important;
 }
