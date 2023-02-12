@@ -157,9 +157,10 @@ main {
   margin-bottom: 16px;
 }
 .footer input {
-  width: 100%;
+  width: 342px;
   background: #ffffff;
   border-radius: 31px;
+  border: none;
   padding: 18px 32px;
   font-style: normal;
   font-weight: 500;
