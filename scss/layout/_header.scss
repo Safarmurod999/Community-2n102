@@ -39,7 +39,10 @@
   border-radius: 31px;
   margin-left: 32px;
 }
-
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link:hover{
+  color: var.$dark-blue !important;
+  border: none !important;
+}
 .offcanvas.show {
   background-color: #fff !important;
   .navbar-nav {
