@@ -91,6 +91,10 @@ main {
   line-height: 28px !important;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  border-bottom: 3px solid #F58A07 !important;
+}
+
 .navbar-nav .nav-link.active {
   color: #394149 !important;
 }
@@ -101,6 +105,11 @@ main {
   background: rgba(245, 138, 7, 0.1);
   border-radius: 31px;
   margin-left: 32px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link:hover {
+  color: hsl(236deg, 17%, 19%) !important;
+  border: none !important;
 }
 
 .offcanvas.show {
@@ -148,9 +157,10 @@ main {
   margin-bottom: 16px;
 }
 .footer input {
-  width: 100%;
+  width: 342px;
   background: #ffffff;
   border-radius: 31px;
+  border: none;
   padding: 18px 32px;
   font-style: normal;
   font-weight: 500;
@@ -390,6 +400,46 @@ main {
   font-size: 16px;
   line-height: 28px;
   color: #5b5b5b;
+}
+.experience__bottom-tab {
+  padding: 48px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #DCEAF5;
+}
+.experience__bottom-tab .ribbon {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+.experience__bottom-tab .ap-tab-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding-left: 0;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+.experience__bottom-tab .ap-tab-link {
+  padding: 8px 24px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  border: 1px solid #a8bccc;
+  border-radius: 31px;
+  color: rgba(6, 50, 85, 0.3);
+}
+.experience__bottom-tab a.active-tab {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #f58a07;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .vacancy img {
